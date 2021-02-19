@@ -2,10 +2,6 @@
 
 Wraps python [envtpl](https://github.com/andreasjansson/envtpl) as drone plugin.
 
-## Configuration
-
-All configuration options could be found in `cmd/config.go`.
-
 ## Usage
 
 ```yaml
