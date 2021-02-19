@@ -6,7 +6,7 @@ Wraps python [envtpl](https://github.com/andreasjansson/envtpl) as drone plugin.
 
 ```yaml
 - name: injecting env into template
-  image: kexpress/drone-envtpl:1.1
+  image: kexpress/drone-envtpl:1.1.0
   settings:
     template: template.j2
     output_file: generated.txt
