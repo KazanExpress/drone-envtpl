@@ -9,7 +9,7 @@ WORKDIR /app/cmd
 
 RUN CGO_ENABLED=0 GOOS=`go env GOHOSTOS` GOARCH=`go env GOHOSTARCH` go build -o drone-envtpl
 
-FROM python:3.5.7-alpine
+FROM python:3.10.7-alpine
 RUN apk add --no-cache \
 		git \
         openssh-client \
